@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		"git::gitPackageTests::ProductTarget" /* gitPackageTests */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = OBJ_61 /* Build configuration list for PBXAggregateTarget "gitPackageTests" */;
+			buildPhases = (
+			);
+			dependencies = (
+				OBJ_64 /* PBXTargetDependency */,
+			);
+			name = gitPackageTests;
+			productName = gitPackageTests;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		OBJ_43 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_49 /* gitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* gitTests.swift */; };
+		OBJ_51 /* git.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "git::git::Product" /* git.framework */; };
+		OBJ_58 /* git.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* git.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4DBC08521F5ED31D006F3293 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "git::git";
+			remoteInfo = git;
+		};
+		4DBC08531F5ED31E006F3293 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "git::gitTests";
+			remoteInfo = gitTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		OBJ_12 /* gitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gitTests.swift; sourceTree = "<group>"; };
+		OBJ_13 /* vcs-svn */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "vcs-svn"; sourceTree = SOURCE_ROOT; };
+		OBJ_14 /* xdiff */ = {isa = PBXFileReference; lastKnownFileType = folder; path = xdiff; sourceTree = SOURCE_ROOT; };
+		OBJ_15 /* sha1collisiondetection */ = {isa = PBXFileReference; lastKnownFileType = folder; path = sha1collisiondetection; sourceTree = SOURCE_ROOT; };
+		OBJ_16 /* git-gui */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "git-gui"; sourceTree = SOURCE_ROOT; };
+		OBJ_17 /* Documentation */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Documentation; sourceTree = SOURCE_ROOT; };
+		OBJ_18 /* compat */ = {isa = PBXFileReference; lastKnownFileType = folder; path = compat; sourceTree = SOURCE_ROOT; };
+		OBJ_19 /* mergetools */ = {isa = PBXFileReference; lastKnownFileType = folder; path = mergetools; sourceTree = SOURCE_ROOT; };
+		OBJ_20 /* gitweb */ = {isa = PBXFileReference; lastKnownFileType = folder; path = gitweb; sourceTree = SOURCE_ROOT; };
+		OBJ_21 /* block-sha1 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "block-sha1"; sourceTree = SOURCE_ROOT; };
+		OBJ_22 /* ci */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ci; sourceTree = SOURCE_ROOT; };
+		OBJ_23 /* outgoing */ = {isa = PBXFileReference; lastKnownFileType = folder; path = outgoing; sourceTree = SOURCE_ROOT; };
+		OBJ_24 /* perl */ = {isa = PBXFileReference; lastKnownFileType = folder; path = perl; sourceTree = SOURCE_ROOT; };
+		OBJ_25 /* ppc */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ppc; sourceTree = SOURCE_ROOT; };
+		OBJ_26 /* sha1dc */ = {isa = PBXFileReference; lastKnownFileType = folder; path = sha1dc; sourceTree = SOURCE_ROOT; };
+		OBJ_27 /* gitk-git */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "gitk-git"; sourceTree = SOURCE_ROOT; };
+		OBJ_28 /* t */ = {isa = PBXFileReference; lastKnownFileType = folder; path = t; sourceTree = SOURCE_ROOT; };
+		OBJ_29 /* contrib */ = {isa = PBXFileReference; lastKnownFileType = folder; path = contrib; sourceTree = SOURCE_ROOT; };
+		OBJ_30 /* ewah */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ewah; sourceTree = SOURCE_ROOT; };
+		OBJ_31 /* po */ = {isa = PBXFileReference; lastKnownFileType = folder; path = po; sourceTree = SOURCE_ROOT; };
+		OBJ_32 /* refs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = refs; sourceTree = SOURCE_ROOT; };
+		OBJ_33 /* templates */ = {isa = PBXFileReference; lastKnownFileType = folder; path = templates; sourceTree = SOURCE_ROOT; };
+		OBJ_34 /* builtin */ = {isa = PBXFileReference; lastKnownFileType = folder; path = builtin; sourceTree = SOURCE_ROOT; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		OBJ_9 /* git.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = git.swift; sourceTree = "<group>"; };
+		"git::git::Product" /* git.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = git.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"git::gitTests::Product" /* gitTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = gitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		OBJ_50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_51 /* git.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		OBJ_10 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_11 /* gitTests */,
+			);
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_11 /* gitTests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_12 /* gitTests.swift */,
+			);
+			name = gitTests;
+			path = Tests/gitTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				"git::gitTests::Product" /* gitTests.xctest */,
+				"git::git::Product" /* git.framework */,
+			);
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		OBJ_5 /*  */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
+				OBJ_10 /* Tests */,
+				OBJ_13 /* vcs-svn */,
+				OBJ_14 /* xdiff */,
+				OBJ_15 /* sha1collisiondetection */,
+				OBJ_16 /* git-gui */,
+				OBJ_17 /* Documentation */,
+				OBJ_18 /* compat */,
+				OBJ_19 /* mergetools */,
+				OBJ_20 /* gitweb */,
+				OBJ_21 /* block-sha1 */,
+				OBJ_22 /* ci */,
+				OBJ_23 /* outgoing */,
+				OBJ_24 /* perl */,
+				OBJ_25 /* ppc */,
+				OBJ_26 /* sha1dc */,
+				OBJ_27 /* gitk-git */,
+				OBJ_28 /* t */,
+				OBJ_29 /* contrib */,
+				OBJ_30 /* ewah */,
+				OBJ_31 /* po */,
+				OBJ_32 /* refs */,
+				OBJ_33 /* templates */,
+				OBJ_34 /* builtin */,
+				OBJ_35 /* Products */,
+			);
+			name = "";
+			sourceTree = "<group>";
+		};
+		OBJ_7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_8 /* git */,
+			);
+			name = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_8 /* git */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_9 /* git.swift */,
+			);
+			name = git;
+			path = Sources/git;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		"git::SwiftPMPackageDescription" /* gitPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_39 /* Build configuration list for PBXNativeTarget "gitPackageDescription" */;
+			buildPhases = (
+				OBJ_42 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gitPackageDescription;
+			productName = gitPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+		"git::git" /* git */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_54 /* Build configuration list for PBXNativeTarget "git" */;
+			buildPhases = (
+				OBJ_57 /* Sources */,
+				OBJ_59 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = git;
+			productName = git;
+			productReference = "git::git::Product" /* git.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"git::gitTests" /* gitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_45 /* Build configuration list for PBXNativeTarget "gitTests" */;
+			buildPhases = (
+				OBJ_48 /* Sources */,
+				OBJ_50 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_52 /* PBXTargetDependency */,
+			);
+			name = gitTests;
+			productName = gitTests;
+			productReference = "git::gitTests::Product" /* gitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		OBJ_1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 9999;
+			};
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "git" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = OBJ_5 /*  */;
+			productRefGroup = OBJ_35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"git::SwiftPMPackageDescription" /* gitPackageDescription */,
+				"git::gitTests" /* gitTests */,
+				"git::git" /* git */,
+				"git::gitPackageTests::ProductTarget" /* gitPackageTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		OBJ_42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_43 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_49 /* gitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_58 /* git.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		OBJ_52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "git::git" /* git */;
+			targetProxy = 4DBC08521F5ED31D006F3293 /* PBXContainerItemProxy */;
+		};
+		OBJ_64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "git::gitTests" /* gitTests */;
+			targetProxy = 4DBC08531F5ED31E006F3293 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		OBJ_3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		OBJ_4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = s;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+		OBJ_40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		OBJ_41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		OBJ_46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = git.xcodeproj/gitTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = gitTests;
+			};
+			name = Debug;
+		};
+		OBJ_47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = git.xcodeproj/gitTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = gitTests;
+			};
+			name = Release;
+		};
+		OBJ_55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = git.xcodeproj/git_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = git;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = git;
+			};
+			name = Debug;
+		};
+		OBJ_56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = git.xcodeproj/git_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = git;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = git;
+			};
+			name = Release;
+		};
+		OBJ_62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		OBJ_63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		OBJ_2 /* Build configuration list for PBXProject "git" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_39 /* Build configuration list for PBXNativeTarget "gitPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_40 /* Debug */,
+				OBJ_41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_45 /* Build configuration list for PBXNativeTarget "gitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_46 /* Debug */,
+				OBJ_47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_54 /* Build configuration list for PBXNativeTarget "git" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_55 /* Debug */,
+				OBJ_56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_61 /* Build configuration list for PBXAggregateTarget "gitPackageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_62 /* Debug */,
+				OBJ_63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = OBJ_1 /* Project object */;
+}
